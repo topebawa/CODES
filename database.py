@@ -1,0 +1,5 @@
+user=input('enter your name: ')
+password=input('enter your password: ')
+record=open('data.txt','w')
+record.write('user')
+record.close()
